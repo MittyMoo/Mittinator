@@ -1,0 +1,50 @@
+/*Page Style*/
+
+body {
+    background-color: rgb(213,225,239);
+}
+
+
+/* Image Style */
+
+.imgDiv  {
+    content: url("images/image-qr-code.png");
+    border-radius: 20px;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+}
+
+
+/* Container holding the image and the text */ 
+
+.container {
+    margin: auto;
+    width: 450px;
+    height: 650px;
+    padding-top: 25px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+/* Text Style */
+
+.textDiv {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(31,49,75) ;
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+}
+
+p {
+    color: rgb(131,133,148);
+    font-family: 'Urbanist', sans-serif;
+    font-size: 21px;
+}
